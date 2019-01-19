@@ -6,16 +6,15 @@
 
 .clearfix:after {
     content: "";
-    display: table;
     clear: both;
 }
 
 body{
     font-family: Helvetica Neue, Arial;
-    font-size: 18px;   
+    font-size: 18px; 
 }
 
-/*  Headings   */
+/****************  HEADINGS   *****************/
 
 h1, h2, h3 {
    color: rgb(55, 199, 55);
@@ -38,18 +37,11 @@ h3 {
     margin-bottom: 10px;
 }
 
-.main-text{
-    text-align: justify;
-    margin-bottom: 25px; 
-}
+/****************      HEADINGS END    ****************/
 
-.author-text{
-    font-size: 20px;
-    float:left;
-    margin-top: 25px;
-    margin-left:18px;
-}
 
+
+/****************       MAIN BLOG        ****************/
 .blog-head {
     box-shadow: 0 3px 5px #e8e8e8;
     padding: 5px;
@@ -65,13 +57,8 @@ h3 {
 .blog-post {
     width: 75%;
     float:left;
-    padding-right:80px;
-    position:relative;
-}
-
-.quick-r{
-    box-shadow: 0 3px 5px #e8e8e8;
-    padding: 5px 5px 0px 2px;
+    padding-right: 80px;
+    position: relative;
 }
 
 .main-blog-section{
@@ -85,34 +72,16 @@ h3 {
     margin-bottom: 5px;  
 }
 
-.blog__other-posts {
-    margin-top: 15px;
-    width: 25%;
-    float:left;
-    font-style: oblique;
-}
+/***************      MAIN BLOG END       ***************/
 
-.author-box {
-    padding-top: 20px;
-    border-top: 3px solid #007705;
-}
 
-.author-box img{
-    height: 100px;
-    width: auto;
-    border-radius: 50%;
-    float: left;
-    margin-bottom: 30px;
-}
 
-.quicky {
-    margin-bottom: 35px;
-    margin-top:20px;
-    padding: 6px;
-    box-shadow: 0 3px 5px #e8e8e8;
-    
-}
+/**************        COMMON                  **************/
 
+.main-text{
+    text-align: justify;
+    margin-bottom: 25px; 
+}
 
 a{
 	text-decoration: underline;
@@ -126,8 +95,216 @@ a:active{
 	color:red;
 }
 
-/*     Search bar    */
+section {
+    padding: 0px 0 80px 0;
+}
+
+/**************        COMMON END              **************/
+
+
+
+
+/**************       QUICK RECIPIES           **************/
+
+.quick-r{
+    box-shadow: 0 3px 5px #e8e8e8;
+    padding: 5px 5px 0px 2px;
+}
+
+.quicky {
+    margin-bottom: 35px;
+    margin-top:20px;
+    padding: 6px;
+    box-shadow: 0 3px 5px #e8e8e8;   
+}
+
+.blog__other-posts {
+    margin-top: 15px;
+    width: 25%;
+    float:left;
+    font-style: oblique;
+}
+
+/***************    QUICK RECIPIES END      ***************/
+
+
+
+/****************     SEARCH BAR    ****************/
 
 .blog__search {
     
 }
+
+/****************     SEARCH BAR END    ****************/
+
+
+
+/****************     COMMENT BOX    ****************/
+
+form {
+    display: flex;
+    width: 68%;
+    box-shadow: 0 3px 5px #e8e8e8; 
+}
+
+.form__title {
+  
+   padding-top: 10px; 
+}
+
+.form__info {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.form__insert {
+    display:flex;
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    
+    
+}
+form {
+  position: center;
+  display: inline-block;
+  max-width: 800px;
+  min-width: 500px;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  background-color: white;
+  margin: 15px 0;
+  left: 50%;
+  
+}
+
+form button{
+  margin-top: 35px;
+  background-color: white;
+  border: 1px solid rgb(55, 199, 55);
+  line-height: 0;
+  font-size: 17px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: rgb(55, 199, 55);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+    
+  form button:hover, form button:focus {
+  color: white;
+  background-color: rgb(55, 199, 55);
+}
+
+form .question {
+  position: relative;
+  padding: 10px 0;
+}
+
+form .question label {
+  transform-origin: left ;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
+  pointer-events: none;
+}
+        
+form .question input[type="text"] {
+  appearance: none;
+  background-color: none;
+  border: 1px solid rgb(55, 199, 55);
+  line-height: 0;
+  font-size: 17px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  color: rgb(55, 199, 55);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+
+form .question input[type="text"]:focus {
+  outline: none;
+  background: rgb(55, 199, 55);
+  color: white;
+  margin-top: 30px;
+}
+form .question input[type="text"]:valid {
+  margin-top: 30px;
+}
+form .question input[type="text"]:focus ~ label {
+  -moz-transform: translate(0, -35px);
+  -ms-transform: translate(0, -35px);
+  -webkit-transform: translate(0, -35px);
+  transform: translate(0, -35px);
+}
+
+form .question input[type="text"]:valid ~ label {
+  text-transform: uppercase;
+  font-style: italic;
+  -moz-transform: translate(5px, -35px) scale(0.6);
+  -ms-transform: translate(5px, -35px) scale(0.6);
+  -webkit-transform: translate(5px, -35px) scale(0.6);
+  transform: translate(5px, -35px) scale(0.6);
+}
+
+.transition, form button, form .question label, form .question input[type="text"] {
+  -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************     COMMENT BOX END    ****************/
