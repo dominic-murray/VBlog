@@ -121,7 +121,7 @@ section {
 .blog__other-posts {
     margin-top: 15px;
     width: 25%;
-    float:left;
+    float:right;
     font-style: oblique;
 }
 
@@ -152,7 +152,8 @@ section {
     margin-top: 10px;
     width: 25%;
     float: right;
-    box-shadow: 0 3px 5px #e8e8e8; 
+    box-shadow: 0 3px 5px #e8e8e8;
+    padding: 5px;
     
 
 }
@@ -173,8 +174,21 @@ section {
 
 
 
+.section__form{
+    box-shadow: 0 3px 5px #e8e8e8; 
+    width: 75%;
+    float:left;
+    margin-top: 10px;
+    margin: 15px auto 0 auto;
+}
 
+.form__title {
+    padding: 5px;
+}
 
+.contact {
+    padding: 5px;
+}
 
 form button{
   margin-top: 35px;
