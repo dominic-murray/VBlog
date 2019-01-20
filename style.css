@@ -48,7 +48,7 @@ h3 {
 }
 
 .blog__main {
-    width: 1140px;
+    width: 75%;
     margin: 15px auto 0 auto;
     border-top: 3px solid #007705;
     
@@ -127,7 +127,37 @@ section {
 
 /***************    QUICK RECIPIES END      ***************/
 
+/***************    PROFILE            *****************/
 
+.creator {
+    box-shadow: 0 3px 5px #e8e8e8; 
+    width: 25%;
+    float: right;
+    padding: 5px;
+}
+
+.profile {
+    border-radius: 50%;
+    margin-top: 5px; 
+    box-shadow: 0 3px 5px #e8e8e8; 
+    
+}
+
+
+/***************    PROFILE END           *****************/
+
+/****************     USEFUL LINKS    ****************/
+
+.links {
+    margin-top: 10px;
+    width: 25%;
+    float: right;
+    box-shadow: 0 3px 5px #e8e8e8; 
+    
+
+}
+
+/****************     USEFUL LINKS END    ****************/
 
 /****************     SEARCH BAR    ****************/
 
@@ -141,45 +171,10 @@ section {
 
 /****************     COMMENT BOX    ****************/
 
-form {
-    display: flex;
-    width: 68%;
-    box-shadow: 0 3px 5px #e8e8e8; 
-}
 
-.form__title {
-  
-   padding-top: 10px; 
-}
 
-.form__info {
-    display: flex;
-    width: 100%;
-    margin: 5px;
-    font-size: 20px;
-    padding-left: 5px;
-}
 
-.form__insert {
-    display:flex;
-    width: 100%;
-    font-size: 20px;
-    justify-content: center;
-    
-    
-}
-form {
-  position: center;
-  display: inline-block;
-  max-width: 800px;
-  min-width: 500px;
-  box-sizing: border-box;
-  padding: 10px 10px;
-  background-color: white;
-  margin: 15px 0;
-  left: 50%;
-  
-}
+
 
 form button{
   margin-top: 35px;
@@ -198,7 +193,7 @@ form button{
   z-index: 1;
 }
     
-  form button:hover, form button:focus {
+form button:hover, form button:focus {
   color: white;
   background-color: rgb(55, 199, 55);
 }
@@ -213,7 +208,7 @@ form .question label {
   color: #333;
   font-weight: 400;
   letter-spacing: 0.01em;
-  font-size: 20px;
+  font-size: 17px;
   box-sizing: border-box;
   padding: 10px;
   display: block;
@@ -233,7 +228,7 @@ form .question input[type="text"] {
   display: block;
   box-sizing: border-box;
   padding: 10px 15px;
-  border-radius: 60px;
+  border-radius: 2px;
   color: rgb(55, 199, 55);
   font-weight: 100;
   letter-spacing: 0.01em;
@@ -272,39 +267,5 @@ form .question input[type="text"]:valid ~ label {
   -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
   transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /****************     COMMENT BOX END    ****************/
