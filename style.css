@@ -49,6 +49,7 @@ h3 {
 
 .blog__main {
     width: 75%;
+    float: left;
     margin: 15px auto 0 auto;
     border-top: 3px solid #007705;
     
@@ -57,7 +58,7 @@ h3 {
 .blog-post {
     width: 75%;
     float:left;
-    padding-right: 80px;
+    padding-right: 50px;
     position: relative;
 }
 
@@ -109,13 +110,17 @@ section {
 .quick-r{
     box-shadow: 0 3px 5px #e8e8e8;
     padding: 5px 5px 0px 2px;
+    margin-right: 40px;
+    float: right;
+    
 }
 
 .quicky {
     margin-bottom: 35px;
     margin-top:20px;
     padding: 6px;
-    box-shadow: 0 3px 5px #e8e8e8;   
+    box-shadow: 0 3px 5px #e8e8e8;  
+     
 }
 
 .blog__other-posts {
@@ -131,9 +136,10 @@ section {
 
 .creator {
     box-shadow: 0 3px 5px #e8e8e8; 
-    width: 25%;
-    float: right;
+    width: 21%;
+    float: left;
     padding: 5px;
+    margin-right: 40px;
 }
 
 .profile {
@@ -150,11 +156,11 @@ section {
 
 .links {
     margin-top: 10px;
-    width: 25%;
-    float: right;
+    width: 21%;
+    float: left;
     box-shadow: 0 3px 5px #e8e8e8;
     padding: 5px;
-    
+    margin-right: 40px;
 
 }
 
@@ -176,10 +182,8 @@ section {
 
 .section__form{
     box-shadow: 0 3px 5px #e8e8e8; 
-    width: 75%;
-    float:left;
-    margin-top: 10px;
-    margin: 15px auto 0 auto;
+    width: 55%;
+    
 }
 
 .form__title {
